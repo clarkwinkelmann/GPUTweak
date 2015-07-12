@@ -1,0 +1,5 @@
+GPUTweak/
+linux-compile-*/
+*~
+*.user
+*.tar.gz

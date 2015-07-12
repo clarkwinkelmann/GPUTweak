@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GPUStatsWindow</class>
+ <widget class="QWidget" name="GPUStatsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>474</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GPU Stats</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="gpuTempLabel">
+     <property name="text">
+      <string>GPU Temp, °C</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGraphicsView" name="gpuTempGraphic"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="gpuUseLabel">
+     <property name="text">
+      <string>GPU Usage, %</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGraphicsView" name="gpuUseGraphic"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="memoryUseLabel">
+     <property name="text">
+      <string>Memory Usage, %</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGraphicsView" name="memoryUseGraphic"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
